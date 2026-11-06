@@ -21,7 +21,7 @@ LAB_DIR = TESTS_DIR.parent
 
 # Resolve module paths
 SOLUTION_PATH = LAB_DIR / "solution-code" / "solution.py"
-TEMPLATE_PATH = LAB_DIR / "starter-code" / "template.py"
+TEMPLATE_PATH = LAB_DIR / "starter-code" / "template_solved.py"
 
 def _load_module(path: Path, unique_name: str):
     if not path.exists():
